@@ -60,7 +60,7 @@ function formatToCsv(data, timestamp) {
         const gap_color = (item.gap_color != null) ? item.gap_color.toString() : '';
         const background = (item.background != null) ? item.background .toString(): '';
         //const name = `"${item.komoditas.replace(/"/g, '""')}"`; // Escape double quotes
-        return `${timestamp},${id},${name},${satuan},${today_price}.${yesterday_price},${yesterday_date},${gap},${gap_percentage},${gap_change},${gap_color},${background}`;
+        return `${timestamp},${id},${name},${satuan},${today_price},${yesterday_price},${yesterday_date},${gap},${gap_percentage},${gap_change},${gap_color},${background}`;
     }).join('\n');
 }
 
