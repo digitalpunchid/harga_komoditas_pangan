@@ -48,9 +48,19 @@ async function fetchData() {
 function formatToCsv(data, timestamp) {
     return data.map(item => {
         // **FIX:** Check if item.harga is not null or undefined, otherwise default to an empty string.
-        const price = (item.harga != null) ? item.harga.toString().replace(/,/g, '') : '';
-        const commodity = `"${item.komoditas.replace(/"/g, '""')}"`; // Escape double quotes
-        return `${timestamp},${commodity},${price}`;
+        const id = (item.id != null) ? item.id : '';
+        const name = (item.name != null) ? item.name.toString() : '';
+        const satuan = (item.satuan != null) ? item.satuan.toString() : '';
+        const today_price = (item.today != null) ? item.today : '';
+        const yesterday_price = (item.yesterday != null) ? item.yesterday : '';
+        const yesterday_date = (item.yesterday_date != null) ? item.yesterday_date.toString() : '';
+        const gap = (item.gap != null) ? item.gap : '';
+        const gap_percentage = (item.gap_percentage != null) ? item.gap_percentage : '';
+        const gap_change = (item.gap_change != null) ? item.gap_change.toString() : '';
+        const gap_color = (item.gap_color != null) ? item.gap_color.toString() : '';
+        const background = (item.background != null) ? item.background .toString(): '';
+        //const name = `"${item.komoditas.replace(/"/g, '""')}"`; // Escape double quotes
+        return `${timestamp},${id},${name},${satuan},${today_price}.${yesterday_price},${yesterday_date},${gap},${gap_percentage},${gap_change},${gap_color},${background}`;
     }).join('\n');
 }
 
@@ -75,7 +85,7 @@ async function main() {
         }
 
         if (!fileExists) {
-            const header = 'date,commodity,price_idr\n';
+            const header = 'date,id,name,satuan,today,yesteday,yesterday_date,gap,gap_percentage,gap_change,gap_color,background\n';
             csvContent += header;
         }
 
