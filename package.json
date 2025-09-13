@@ -1,0 +1,12 @@
+{
+  "name": "daily-price-updater",
+  "version": "1.0.0",
+  "description": "A script to fetch daily food prices and update a CSV file.",
+  "main": "update-data.js",
+  "scripts": {
+    "start": "node update-data.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

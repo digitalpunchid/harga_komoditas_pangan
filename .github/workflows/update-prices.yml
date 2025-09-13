@@ -1,0 +1,46 @@
+# This workflow updates the food price CSV file daily
+
+name: Update Daily Food Prices
+
+on:
+  schedule:
+    # Runs at 13:30 GMT+7, which is 06:30 UTC
+    - cron: '30 6 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants permission for the action to push to the repo
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Use a Long-Term Support (LTS) version of Node.js
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run data update script
+        run: node update-data.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Check if there are any changes to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git add harga_komoditas_konsumen_kota_bandung.csv
+            git commit -m " chore: Update food prices for $(date +'%Y-%m-%d')"
+            git push
+            echo "Changes committed and pushed."
+          else
+            echo "No changes to commit."
+          fi
