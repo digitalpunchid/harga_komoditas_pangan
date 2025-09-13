@@ -9,7 +9,7 @@ const TIMEZONE = 'Asia/Jakarta'; // GMT+7
 
 /**
  * Gets the current timestamp in GMT+7 (WIB)
- * @returns {string} The formatted timestamp (e.g., "2025-09-14T08:30:00.000Z")
+ * @returns {string} The formatted timestamp (e.g., "2025-09-14")
  */
 function getCurrentTimestamp() {
     const now = new Date();
@@ -28,7 +28,7 @@ async function fetchData() {
     try {
         console.log(`Fetching data from ${API_URL}...`);
         const response = await axios.get(API_URL);
-        if (response.status === 200 && response.data && response.data.data.length > 0) {
+        if (response.status === 200 && response.data && response.data.data && response.data.data.length > 0) {
             console.log("Data fetched successfully.");
             return response.data.data;
         }
@@ -47,8 +47,8 @@ async function fetchData() {
  */
 function formatToCsv(data, timestamp) {
     return data.map(item => {
-        // Sanitize data to ensure it doesn't break CSV format (e.g., remove commas from numbers)
-        const price = item.harga.toString().replace(/,/g, '');
+        // **FIX:** Check if item.harga is not null or undefined, otherwise default to an empty string.
+        const price = (item.harga != null) ? item.harga.toString().replace(/,/g, '') : '';
         const commodity = `"${item.komoditas.replace(/"/g, '""')}"`; // Escape double quotes
         return `${timestamp},${commodity},${price}`;
     }).join('\n');
@@ -92,3 +92,4 @@ async function main() {
 }
 
 main();
+
