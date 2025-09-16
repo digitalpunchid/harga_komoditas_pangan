@@ -74,3 +74,28 @@ Timestamp,ID,Komoditas,Satuan,Harga,Harga Kemarin,Tanggal Kemarin,Gap,Gap Persen
 2025-09-15,107,Garam Konsumsi,Rp/kg,10000,10000,14-09-2025,0,0,no_change,blue,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/garam-halus-beryodium.png
 2025-09-15,149,Daging Kerbau Beku (Impor Luar Negeri),Rp/Kg,0,0,14-09-2025,0,0,no_change,blue,
 2025-09-15,152,Daging Kerbau Segar (Lokal),Rp/Kg,0,0,14-09-2025,0,0,no_change,blue,
+2025-09-16,27,Beras Premium,Rp./Kg,15750,15500,15-09-2025,250,1.61,up,red,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/beras-premium.png
+2025-09-16,28,Beras Medium,Rp./Kg,13125,13250,15-09-2025,-125,-0.94,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/beras-medium.png
+2025-09-16,109,Beras SPHP,Rp/kg,12500,12500,15-09-2025,0,0,no_change,blue,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/beras-medium.png
+2025-09-16,102,Jagung Tk Peternak,Rp/kg,0,0,15-09-2025,0,0,no_change,blue,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/jagung-tk-peternak.png
+2025-09-16,29,Kedelai Biji Kering (Impor),Rp./Kg,0,0,15-09-2025,0,0,no_change,blue,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/kedelai-biji-kering-impor.png
+2025-09-16,30,Bawang Merah,Rp./Kg,41250,43750,15-09-2025,-2500,-5.71,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/bawang-merah.png
+2025-09-16,31,Bawang Putih Bonggol,Rp./Kg,38750,40000,15-09-2025,-1250,-3.13,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/bawang-putih-bonggol.png
+2025-09-16,32,Cabai Merah Keriting,Rp./Kg,45500,62500,15-09-2025,-17000,-27.2,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/cabai-merah-keriting.png
+2025-09-16,126,Cabai Merah Besar,Rp/kg,66250,81250,15-09-2025,-15000,-18.46,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/cabai-merah-besar.png
+2025-09-16,34,Daging Sapi Murni,Rp./Kg,140000,140000,15-09-2025,0,0,no_change,blue,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/daging-sapi-murni.png
+2025-09-16,33,Cabai Rawit Merah,Rp./Kg,36250,46250,15-09-2025,-10000,-21.62,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/cabai-rawit-merah.png
+2025-09-16,35,Daging Ayam Ras,Rp./Kg,39000,40000,15-09-2025,-1000,-2.5,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/daging-ayam-ras.png
+2025-09-16,36,Telur Ayam Ras,Rp./Kg,28333,28500,15-09-2025,-167,-0.59,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/telur-ayam-ras.png
+2025-09-16,37,Gula Konsumsi,Rp./Kg,17667,17250,15-09-2025,417,2.42,up,red,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/gula-konsumsi.png
+2025-09-16,38,Minyak Goreng Kemasan,Rp./Liter,20667,21500,15-09-2025,-833,-3.87,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/minyak-goreng-kemasan-sederhana.png
+2025-09-16,101,Minyak Goreng Curah,Rp./Liter,20667,20250,15-09-2025,417,2.06,up,red,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/minyak-goreng-curah.png
+2025-09-16,40,Tepung Terigu (Curah),Rp./Kg,10000,9750,15-09-2025,250,2.56,up,red,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/tepung-terigu-curah.png
+2025-09-16,127,Minyakita,Rp/Liter,17833,17625,15-09-2025,208,1.18,up,red,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/minyak-kita.png
+2025-09-16,108,Tepung Terigu Kemasan,Rp/kg,13333,13125,15-09-2025,208,1.58,up,red,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/tepung-terigu-kemasan.png
+2025-09-16,104,Ikan Kembung,Rp./Kg,50000,51667,15-09-2025,-1667,-3.23,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/ikan-kembung.png
+2025-09-16,105,Ikan Tongkol,Rp./Kg,50000,51667,15-09-2025,-1667,-3.23,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/ikan-tongkol.png
+2025-09-16,106,Ikan Bandeng,Rp./Kg,47500,50000,15-09-2025,-2500,-5,down,green,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/ikan-bandeng.png
+2025-09-16,107,Garam Konsumsi,Rp/kg,10000,10000,15-09-2025,0,0,no_change,blue,https://panelharga.badanpangan.go.id/assets/img/komoditas-ikon/garam-halus-beryodium.png
+2025-09-16,149,Daging Kerbau Beku (Impor Luar Negeri),Rp/Kg,0,0,15-09-2025,0,0,no_change,blue,
+2025-09-16,152,Daging Kerbau Segar (Lokal),Rp/Kg,0,0,15-09-2025,0,0,no_change,blue,
