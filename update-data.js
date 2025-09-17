@@ -47,7 +47,7 @@ async function fetchData() {
  */
 function formatToCsv(data, timestamp) {
     return data.map(item => {
-        // **FIX:** Check if item.harga is not null or undefined, otherwise default to an empty string.
+        // **FIX:** Check if item is not null or undefined, otherwise default to an empty string.
         const id = (item.id != null) ? item.id : '';
         const name = (item.name != null) ? item.name.toString() : '';
         const satuan = (item.satuan != null) ? item.satuan.toString() : '';
@@ -57,10 +57,10 @@ function formatToCsv(data, timestamp) {
         const gap = (item.gap != null) ? item.gap : '';
         const gap_percentage = (item.gap_percentage != null) ? item.gap_percentage : '';
         const gap_change = (item.gap_change != null) ? item.gap_change.toString() : '';
-        const gap_color = (item.gap_color != null) ? item.gap_color.toString() : '';
-        const background = (item.background != null) ? item.background .toString(): '';
+        //const gap_color = (item.gap_color != null) ? item.gap_color.toString() : '';
+        //const background = (item.background != null) ? item.background .toString(): '';
         //const name = `"${item.komoditas.replace(/"/g, '""')}"`; // Escape double quotes
-        return `${timestamp},${id},${name},${satuan},${today_price},${yesterday_price},${yesterday_date},${gap},${gap_percentage},${gap_change},${gap_color},${background}`;
+        return `${timestamp},${id},${name},${satuan},${today_price},${yesterday_price},${yesterday_date},${gap},${gap_percentage},${gap_change}`;
     }).join('\n');
 }
 
@@ -85,7 +85,7 @@ async function main() {
         }
 
         if (!fileExists) {
-            const header = 'date,id,name,satuan,today,yesteday,yesterday_date,gap,gap_percentage,gap_change,gap_color,background\n';
+            const header = 'Timestamp,ID,Komoditas,Satuan,Harga,Harga Kemarin,Tanggal Kemarin,Gap,Gap Persen,Gap Perubahan\n';
             csvContent += header;
         }
 
