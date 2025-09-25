@@ -299,3 +299,28 @@ Timestamp,ID,Komoditas,Satuan,Harga,Harga Kemarin,Tanggal Kemarin,Gap,Gap Persen
 2025-09-24,107,Garam Konsumsi,Rp/kg,10000,10000,23-09-2025,0,0,no_change
 2025-09-24,149,Daging Kerbau Beku (Impor Luar Negeri),Rp/Kg,0,0,23-09-2025,0,0,no_change
 2025-09-24,152,Daging Kerbau Segar (Lokal),Rp/Kg,0,0,23-09-2025,0,0,no_change
+2025-09-25,27,Beras Premium,Rp./Kg,15500,15750,24-09-2025,-250,-1.59,down
+2025-09-25,28,Beras Medium,Rp./Kg,13250,13125,24-09-2025,125,0.95,up
+2025-09-25,109,Beras SPHP,Rp/kg,12500,12500,24-09-2025,0,0,no_change
+2025-09-25,102,Jagung Tk Peternak,Rp/kg,0,0,24-09-2025,0,0,no_change
+2025-09-25,29,Kedelai Biji Kering (Impor),Rp./Kg,0,0,24-09-2025,0,0,no_change
+2025-09-25,30,Bawang Merah,Rp./Kg,40000,40000,24-09-2025,0,0,no_change
+2025-09-25,31,Bawang Putih Bonggol,Rp./Kg,37500,36250,24-09-2025,1250,3.45,up
+2025-09-25,32,Cabai Merah Keriting,Rp./Kg,76667,71250,24-09-2025,5417,7.6,up
+2025-09-25,126,Cabai Merah Besar,Rp/kg,88333,85000,24-09-2025,3333,3.92,up
+2025-09-25,34,Daging Sapi Murni,Rp./Kg,140000,140000,24-09-2025,0,0,no_change
+2025-09-25,33,Cabai Rawit Merah,Rp./Kg,50833,48750,24-09-2025,2083,4.27,up
+2025-09-25,35,Daging Ayam Ras,Rp./Kg,41000,40500,24-09-2025,500,1.23,up
+2025-09-25,36,Telur Ayam Ras,Rp./Kg,29600,29667,24-09-2025,-67,-0.23,down
+2025-09-25,37,Gula Konsumsi,Rp./Kg,17400,17667,24-09-2025,-267,-1.51,down
+2025-09-25,38,Minyak Goreng Kemasan,Rp./Liter,21200,20667,24-09-2025,533,2.58,up
+2025-09-25,101,Minyak Goreng Curah,Rp./Liter,20400,20667,24-09-2025,-267,-1.29,down
+2025-09-25,40,Tepung Terigu (Curah),Rp./Kg,10000,10000,24-09-2025,0,0,no_change
+2025-09-25,127,Minyakita,Rp/Liter,17700,17833,24-09-2025,-133,-0.75,down
+2025-09-25,108,Tepung Terigu Kemasan,Rp/kg,13200,13333,24-09-2025,-133,-1,down
+2025-09-25,104,Ikan Kembung,Rp./Kg,51667,50000,24-09-2025,1667,3.33,up
+2025-09-25,105,Ikan Tongkol,Rp./Kg,51667,50000,24-09-2025,1667,3.33,up
+2025-09-25,106,Ikan Bandeng,Rp./Kg,50000,47500,24-09-2025,2500,5.26,up
+2025-09-25,107,Garam Konsumsi,Rp/kg,10000,10000,24-09-2025,0,0,no_change
+2025-09-25,149,Daging Kerbau Beku (Impor Luar Negeri),Rp/Kg,0,0,24-09-2025,0,0,no_change
+2025-09-25,152,Daging Kerbau Segar (Lokal),Rp/Kg,0,0,24-09-2025,0,0,no_change
