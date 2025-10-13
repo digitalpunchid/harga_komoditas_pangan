@@ -749,3 +749,28 @@ Timestamp,ID,Komoditas,Satuan,Harga,Harga Kemarin,Tanggal Kemarin,Gap,Gap Persen
 2025-10-12,107,Garam Konsumsi,Rp/kg,0,10000,11-10-2025,-10000,-100,down
 2025-10-12,149,Daging Kerbau Beku (Impor Luar Negeri),Rp/Kg,0,0,11-10-2025,0,0,no_change
 2025-10-12,152,Daging Kerbau Segar (Lokal),Rp/Kg,0,0,11-10-2025,0,0,no_change
+2025-10-13,27,Beras Premium,Rp./Kg,15600,15000,12-10-2025,600,4,up
+2025-10-13,28,Beras Medium,Rp./Kg,13100,12750,12-10-2025,350,2.75,up
+2025-10-13,109,Beras SPHP,Rp/kg,12500,12500,12-10-2025,0,0,no_change
+2025-10-13,102,Jagung Tk Peternak,Rp/kg,0,0,12-10-2025,0,0,no_change
+2025-10-13,29,Kedelai Biji Kering (Impor),Rp./Kg,0,0,12-10-2025,0,0,no_change
+2025-10-13,30,Bawang Merah,Rp./Kg,41667,0,12-10-2025,41667,0,up
+2025-10-13,31,Bawang Putih Bonggol,Rp./Kg,36667,0,12-10-2025,36667,0,up
+2025-10-13,32,Cabai Merah Keriting,Rp./Kg,66667,0,12-10-2025,66667,0,up
+2025-10-13,126,Cabai Merah Besar,Rp/kg,73333,0,12-10-2025,73333,0,up
+2025-10-13,34,Daging Sapi Murni,Rp./Kg,140000,0,12-10-2025,140000,0,up
+2025-10-13,33,Cabai Rawit Merah,Rp./Kg,43333,0,12-10-2025,43333,0,up
+2025-10-13,35,Daging Ayam Ras,Rp./Kg,40250,0,12-10-2025,40250,0,up
+2025-10-13,36,Telur Ayam Ras,Rp./Kg,31167,0,12-10-2025,31167,0,up
+2025-10-13,37,Gula Konsumsi,Rp./Kg,17833,0,12-10-2025,17833,0,up
+2025-10-13,38,Minyak Goreng Kemasan,Rp./Liter,20333,0,12-10-2025,20333,0,up
+2025-10-13,101,Minyak Goreng Curah,Rp./Liter,20667,0,12-10-2025,20667,0,up
+2025-10-13,40,Tepung Terigu (Curah),Rp./Kg,10000,0,12-10-2025,10000,0,up
+2025-10-13,127,Minyakita,Rp/Liter,18000,0,12-10-2025,18000,0,up
+2025-10-13,108,Tepung Terigu Kemasan,Rp/kg,13333,0,12-10-2025,13333,0,up
+2025-10-13,104,Ikan Kembung,Rp./Kg,50000,0,12-10-2025,50000,0,up
+2025-10-13,105,Ikan Tongkol,Rp./Kg,47500,0,12-10-2025,47500,0,up
+2025-10-13,106,Ikan Bandeng,Rp./Kg,47500,0,12-10-2025,47500,0,up
+2025-10-13,107,Garam Konsumsi,Rp/kg,10000,0,12-10-2025,10000,0,up
+2025-10-13,149,Daging Kerbau Beku (Impor Luar Negeri),Rp/Kg,0,0,12-10-2025,0,0,no_change
+2025-10-13,152,Daging Kerbau Segar (Lokal),Rp/Kg,0,0,12-10-2025,0,0,no_change
